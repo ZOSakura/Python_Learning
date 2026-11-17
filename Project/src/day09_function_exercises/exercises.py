@@ -1,4 +1,4 @@
-def total_amount(*args, discount_ticket = 0, point_dicount= 0, shipping_fee = 0):
+def total_amount(*args:tuple[str, int, int], discount_ticket = 0, point_dicount= 0, shipping_fee = 0):
     #total = 0
     #for item in args:
     #    total += item[1] * item[2]
